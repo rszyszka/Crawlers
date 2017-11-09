@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ManageViewController">
+   <children>
+      <Label layoutX="137.0" layoutY="24.0" prefHeight="41.0" prefWidth="234.0" text="Account management">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="95.0" text="New username" />
+      <Label layoutX="28.0" layoutY="160.0" text="New password" />
+      <Label layoutX="27.0" layoutY="298.0" text="Delete account" />
+      <TextField fx:id="username" layoutX="137.0" layoutY="90.0" />
+      <PasswordField fx:id="password" layoutX="137.0" layoutY="155.0" />
+      <Button layoutX="371.0" layoutY="90.0" mnemonicParsing="false" onAction="#saveUserClicked" prefHeight="31.0" prefWidth="97.0" text="Save" />
+      <Button layoutX="182.0" layoutY="293.0" mnemonicParsing="false" onAction="#deleteClicked" prefHeight="31.0" prefWidth="97.0" text="Delete" />
+      <Label fx:id="usrInfo" alignment="CENTER" layoutX="114.0" layoutY="124.0" prefHeight="21.0" prefWidth="234.0" textFill="RED" />
+      <Label fx:id="passwdInfo" alignment="CENTER" layoutX="114.0" layoutY="190.0" prefHeight="21.0" prefWidth="234.0" textFill="RED" />
+      <Label fx:id="infoLabel" alignment="CENTER" layoutX="114.0" layoutY="190.0" prefHeight="21.0" prefWidth="234.0" textFill="#1000ff" />
+      <Button layoutX="371.0" layoutY="155.0" mnemonicParsing="false" onAction="#savePasswdClicked" prefHeight="31.0" prefWidth="97.0" text="Save" />
+   </children>
+</AnchorPane>

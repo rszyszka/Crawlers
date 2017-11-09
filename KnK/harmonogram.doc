@@ -1,0 +1,37 @@
+Kółko i krzyżyk
+
+Tematem projektu jest stworzenie gry w kółko i krzyżyk.
+Jest to gra dla dwóch graczy, którzy na planszy 3x3 na przemian stawiają w jednym polu swój symbol (kółko, krzyżyk).
+Celem gry jest uzyskanie na planszy w rzędzie 3 znaków.
+
+Harmonogram: 
+
+1.GUI:
+•	Stworzenie planszy do gry
+•	Stworzenie rozwijanego menu
+•	Stworzenie okienka do wpisywania imienia gracza
+•	Główne menu z możliwością wyboru gry na jednego/dwóch graczy lokalnie lub przez sieć
+•	Okienko chatu
+
+2.Zapis i odczyt plików:
+•	efekty dźwiękowe podczas gry
+•	muzyka w tle
+•	tło obrazkowe
+	
+3.Współbieżność:
+•	obsługa chatu w osobnym wątku
+•	inne możliwości
+
+4.Bazy danych:
+•	tabele z wynikami 
+•	wysyłanie wyników
+•	odczyt i wyświetlanie wyników w aplikacji
+
+5.Komunikacja sieciowa:
+•	komunikacja klien-serwer
+•	chat sieciowy
+•	gra przez sieć
+
+6.Zaproponowane przez studenta:
+•	opracowanie podstawowego algorytmu działania gry
+•	algorytm minimax dla gry z komputerem

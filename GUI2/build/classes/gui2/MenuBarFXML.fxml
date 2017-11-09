@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.input.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<MenuBar fx:id="menuBar" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui2.MenuBarFXMLController">
+  <menus>
+    <Menu fx:id="prog" mnemonicParsing="false" text="Program">
+      <items>
+        <MenuItem fx:id="close" mnemonicParsing="false" onAction="#close" text="Close">
+               <accelerator>
+                  <KeyCodeCombination alt="UP" code="C" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+               </accelerator></MenuItem>
+      </items>
+    </Menu>
+      <Menu fx:id="about1" mnemonicParsing="false" />
+  </menus>
+</MenuBar>

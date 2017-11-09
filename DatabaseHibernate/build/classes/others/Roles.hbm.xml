@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-05-18 18:23:36 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="others.Roles" table="roles" catalog="javadatabase" optimistic-lock="version">
+        <id name="idRole" type="java.lang.Integer">
+            <column name="ID_role" />
+            <generator class="identity" />
+        </id>
+        <property name="type" type="string">
+            <column name="Type" length="65535" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

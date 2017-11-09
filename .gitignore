@@ -1,0 +1,41 @@
+bin/
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/build/
+/Crawler/nbproject/private/
+/Crawler/build/
+/GUI/nbproject/private/
+/GUI/dist/
+/GUI/build/
+/Crawler/dist/
+/Concurrence/nbproject/private/
+/ThreadyTomali/nbproject/private/
+/ThreadyTomali/build/
+/Concurrence/build/
+/IOSerialization/nbproject/private/
+/IOSerialization/dist/
+/IOSerialization/build/
+/NetworkSockets/dist/
+/CrawlerRMI/nbproject/private/
+/CrawlerRMI/build/
+/CrawlerRMI/dist/

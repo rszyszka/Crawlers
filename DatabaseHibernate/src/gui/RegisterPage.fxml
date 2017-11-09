@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.RegisterPageController">
+   <children>
+      <TextField fx:id="username" layoutX="192.0" layoutY="105.0" prefHeight="31.0" prefWidth="220.0" />
+      <PasswordField fx:id="password" layoutX="190.0" layoutY="169.0" prefHeight="31.0" prefWidth="220.0" />
+      <RadioButton fx:id="adminButton" layoutX="192.0" layoutY="222.0" mnemonicParsing="false" text="ADMIN" />
+      <RadioButton fx:id="userButton" layoutX="348.0" layoutY="222.0" mnemonicParsing="false" text="USER" />
+      <Label layoutX="190.0" layoutY="84.0" text="Username" />
+      <Label layoutX="192.0" layoutY="148.0" text="Password" />
+      <Button layoutX="154.0" layoutY="266.0" mnemonicParsing="false" onAction="#saveClick" prefHeight="31.0" prefWidth="76.0" text="Save" />
+      <Button layoutX="264.0" layoutY="266.0" mnemonicParsing="false" onAction="#clearClick" prefHeight="31.0" prefWidth="76.0" text="Clear" />
+      <Button layoutX="372.0" layoutY="266.0" mnemonicParsing="false" onAction="#cancelClick" prefHeight="31.0" prefWidth="76.0" text="Cancel" />
+      <Label fx:id="info" alignment="CENTER" layoutX="190.0" layoutY="321.0" prefHeight="21.0" prefWidth="220.0" />
+   </children>
+</AnchorPane>

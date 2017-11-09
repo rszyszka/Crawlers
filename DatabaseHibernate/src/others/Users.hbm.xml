@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-05-18 18:23:36 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="others.Users" table="users" catalog="javadatabase" optimistic-lock="version">
+        <id name="idUser" type="java.lang.Integer">
+            <column name="ID_User" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="Name" length="65535" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="Password" length="65535" not-null="true" />
+        </property>
+        <property name="idRole" type="int">
+            <column name="ID_Role" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

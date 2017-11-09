@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BarChart fx:id="barChart" legendSide="RIGHT" title="Distribution of marks" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui2.BarChartFXMLController">
+  <xAxis>
+    <CategoryAxis label="Marks" side="BOTTOM" fx:id="xAxis" />
+  </xAxis>
+  <yAxis>
+    <NumberAxis fx:id="yAxis" autoRanging="false" label="Count" minorTickCount="0" side="LEFT" tickUnit="1.0" upperBound="5.0">
+         <tickLabelFont>
+            <Font name="Arial Narrow" size="14.0" />
+         </tickLabelFont></NumberAxis>
+  </yAxis>
+</BarChart>

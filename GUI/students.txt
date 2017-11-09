@@ -1,0 +1,8 @@
+4.0;Jan;Kowalski;22
+3.0;Maniek;Boniek;25
+2.0;Fraciszek;Nowak;28
+2.0;Robert;Koniotromski;18
+3.5;Maciej;Buczko;32
+5.0;Bronislaw;Romanowicz;24
+4.5;Amadeusz;Wonforski;21
+

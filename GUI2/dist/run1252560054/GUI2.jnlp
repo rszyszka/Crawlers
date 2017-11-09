@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GUI2.jnlp">
+  <information>
+    <title>GUI2</title>
+    <vendor>Szysz</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="GUI2.jar" size="24632" download="eager" />
+    <jar href="lib\Crawler.jar" size="33414" download="eager" />
+    <jar href="lib\CrawlerRMI.jar" size="9942" download="eager" />
+    <jar href="lib\IOSerialization.jar" size="21764" download="eager" />
+    <jar href="lib\Sockety.jar" size="39697" download="eager" />
+    <jar href="lib\javax.mail.jar" size="608084" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="GUI2" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="gui2.MainGui"  name="GUI2" />
+  <update check="always"/>
+</jnlp>

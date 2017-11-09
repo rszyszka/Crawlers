@@ -1,0 +1,6 @@
+2.0;Robert;Koniotromski;20
+3.0;Jan;Kowalski;19
+4.0;Rafal;Monski;19
+3.5;Franciszek;Babiarz;20
+4.5;Magdalena;Ponczek;19
+3.0;Amadeusz;Wolik;20

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="602.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui2.RegisterPageFXMLController">
+   <children>
+      <TextField fx:id="usernameReg" layoutX="181.0" layoutY="62.0" />
+      <Text layoutX="80.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Username" />
+      <Text layoutX="80.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Password:" />
+      <PasswordField fx:id="passwordReg" layoutX="181.0" layoutY="105.0" />
+      <TextField fx:id="ageReg" layoutX="181.0" layoutY="147.0" />
+      <Text layoutX="80.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" />
+      <TextField fx:id="addressReg" layoutX="181.0" layoutY="191.0" />
+      <Text layoutX="81.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address:" />
+      <RadioButton fx:id="male" layoutX="181.0" layoutY="248.0" mnemonicParsing="false" onAction="#maleClick" text="Male" />
+      <RadioButton fx:id="female" layoutX="293.0" layoutY="248.0" mnemonicParsing="false" onAction="#femaleClick" text="Female" />
+      <Text layoutX="80.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sex:" />
+      <Button fx:id="save" layoutX="81.0" layoutY="291.0" mnemonicParsing="false" onAction="#saveClick" prefHeight="31.0" prefWidth="85.0" text="Save" />
+      <Button fx:id="clear" layoutX="191.0" layoutY="291.0" mnemonicParsing="false" onAction="#clearClick" prefHeight="31.0" prefWidth="85.0" text="Clear" />
+      <Button fx:id="cancel" layoutX="302.0" layoutY="291.0" mnemonicParsing="false" onAction="#cancelClick" prefHeight="31.0" prefWidth="85.0" text="Cancel" />
+      <Text layoutX="81.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Required fields" />
+      <Label fx:id="label" layoutX="139.0" layoutY="389.0" prefHeight="21.0" prefWidth="204.0" textFill="#e40d0d" />
+   </children>
+</AnchorPane>
